@@ -24,17 +24,13 @@ func FindSmallestInt(slice []int) int {
 	if len(slice) == 0 {
 		return 0
 	}
-	var smallest int
-
-	smallest = slice[0]
-
-	for i := range slice {
-
+	//var smallest int
+	smallest := slice[0]
+	for i := 1; i < len(slice); i++ {
 		if slice[i] < smallest {
 			smallest = slice[i]
 		}
 	}
-
 	return smallest
-	return 0
+
 }

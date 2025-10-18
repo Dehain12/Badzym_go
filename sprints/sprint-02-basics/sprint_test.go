@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	// Import functions from subdirectories
-	basicsmap "example.com/practice-tasks/sprints/sprint-02-basics/basics-map"
-	basicsslice "example.com/practice-tasks/sprints/sprint-02-basics/basics-slice"
-	basicsstrings "example.com/practice-tasks/sprints/sprint-02-basics/basics-strings"
-	misc "example.com/practice-tasks/sprints/sprint-02-basics/misc"
-	star "example.com/practice-tasks/sprints/sprint-02-basics/the-one-with-the-star"
+	basicsmap "github.com/Dehain12/Badzym_go/sprints/sprint-02-basics/basics-map"
+	basicsslice "github.com/Dehain12/Badzym_go/sprints/sprint-02-basics/basics-slice"
+	basicsstrings "github.com/Dehain12/Badzym_go/sprints/sprint-02-basics/basics-strings"
+	misc "github.com/Dehain12/Badzym_go/sprints/sprint-02-basics/misc"
+	star "github.com/Dehain12/Badzym_go/sprints/sprint-02-basics/the-one-with-the-star"
 )
 
 func TestCountFrequencies(t *testing.T) {

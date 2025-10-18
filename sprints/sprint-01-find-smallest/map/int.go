@@ -17,5 +17,20 @@ func FindSmallestIntInMap(m map[int]int) int {
 	//
 	// Пример для мапы map[int]int{1: 10, 2: 5, 3: 15}:
 	//   - Возвращаем 5, так как это наименьшее значение в мапе
-	return 0
+	if len(m) == 0 {
+		return 0
+	}
+	smallest := 0
+	first_wtite := true
+	for _, value := range m {
+		if first_wtite {
+			smallest = value
+			first_wtite = false
+		}
+		if smallest >= value {
+			smallest = value
+		}
+	}
+	return smallest
+
 }

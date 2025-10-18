@@ -1,5 +1,7 @@
 package problems
 
+import "strings"
+
 // IsPalindrome проверяет, является ли строка палиндромом.
 //
 // Вход:
@@ -13,5 +15,11 @@ package problems
 //   - s = "abba" -> true
 //   - s = "abc"  -> false
 func IsPalindrome(s string) bool {
-	return false
+	s = strings.ToLower(strings.Join(strings.Fields(s), ""))
+	for i := 0; i < len(s)/2; i++ {
+		if s[i] != s[len(s)-i-1] {
+			return false
+		}
+	}
+	return true
 }

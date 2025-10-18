@@ -5,8 +5,8 @@ import (
 	"time"
 
 	// Import functions from subdirectories
-	findsmallestmap "example.com/practice-tasks/sprints/sprint-01-find-smallest/map"
-	findsmallestslice "example.com/practice-tasks/sprints/sprint-01-find-smallest/slice"
+	findsmallestmap "github.com/Dehain12/Badzym_go/sprints/sprint-01-find-smallest/map"
+	findsmallestslice "github.com/Dehain12/Badzym_go/sprints/sprint-01-find-smallest/slice"
 )
 
 func TestFindSmallestIntInMap(t *testing.T) {
