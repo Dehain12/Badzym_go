@@ -13,5 +13,6 @@ package problems
 //   - s = "([]){}" -> true
 //   - s = "([)]"   -> false
 func IsBracketSequenceBalanced(s string) bool {
+
 	return false
 }
